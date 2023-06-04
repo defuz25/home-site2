@@ -1,0 +1,229 @@
+body{
+    background-color: #e6e6e6;
+    font-family:  'Trebuchet MS', Calibri;
+    color: #353535;
+}
+#menu{
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #bdbdbd80;
+    background-color: #fffffff9;
+}
+#menu a{
+    border-inline: 1px #0000 solid;
+    padding: 15px;
+    padding-inline: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #353535;
+    /* font-variant: small-caps; */
+    letter-spacing: 3px;
+}
+#menu a:hover, #menu a.active{
+    border-inline: 1px #bdbdbd80 solid;
+}
+#canvas{
+    border: 2px solid #666;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
+#canvas2{
+    border: 2px solid #666;
+    position: absolute;
+    top: 70px;
+    z-index: 2;
+    cursor: crosshair;
+}
+#aaa{
+    width: 150px;
+}
+#id1{
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background-color: #f0f0f0;
+    height: 400px;
+    width: 300px;
+    border: 10px solid #f0f0f0;
+}
+qwe{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#pen{
+    background-color: black;
+    height: 2px;
+    width: 2px;
+    position: relative;
+    left: 125px;
+    top: 25px;
+}
+.ranger{
+    text-align: center;
+}
+#color{
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    width: 150px;
+}
+#clear{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 280px;
+}
+#bbb{
+    position: relative;
+    width: 150px;
+
+}
+#instr{
+    position: absolute;
+    bottom: 10px;
+    background-color: #f0f0f0;
+    border: 10px solid #f0f0f0;
+    right: 10px;
+}
+#instr img{
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border: 10px solid lightgray;
+}
+#instr img:active, #instr img:hover{
+    background-color: gray;
+    border-color: gray;
+}
+
+#rty{
+    position: relative;
+}
+qwe1{
+    position: relative;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#ranger2{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+#colortxt{
+    position: absolute;
+    top: 154px;
+    left: 10px;
+}
+
+#sta{
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    width: 270px;
+    height: 33px;
+    resize: none;
+}
+#txt2{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+}
+#bgcbutton{
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border: 10px solid lightgray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#bgcbutton:active{
+    background-color: gray;
+    border-color: gray;
+}
+#fi{
+    position: absolute;
+    top: 225px;
+    left: 10px;
+}
+#saveb{
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    width: 280px;
+}
+#imgw{
+    position: absolute;
+    top: 255px;
+    right: 90px;
+    width: 70px;
+}
+#imgh{
+    position: absolute;
+    top: 255px;
+    width: 70px;
+    right: 10px;
+}
+#txtsimg{
+    position: absolute;
+    top: 255px;
+    font-size: 17px;
+    left: 10px;
+}
+#size{
+    position: absolute;
+    top: 500px;
+    right: 10px;
+}
+#warning{
+    position: relative;
+    font-size: 15px;
+    /* text-align: center; */
+    font-family: sans-serif;
+}
+#fontselect{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    width: 275px;
+    height: 25px;
+}
+#linestyle{
+    position: absolute;
+    top: 235px;
+    left: 10px;
+    width: 275px;
+    height: 25px;
+}
+#txt3{
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    font-family: sans-serif;
+}
+#figsel{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    width: 275px;
+    height: 25px;
+}
+#txt4{
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 15px;
+}

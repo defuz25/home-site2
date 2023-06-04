@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests</title>
+    <link rel="stylesheet" href="styles/tests.css">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html">Home</a>
+        <a href="numbers.html">Guess Num</a>
+        <a href="risovalka.html">Painter</a>
+        <a href="#" class="active">Tests</a>
+        <a id="dark">&#9680;</a>
+    </div>
+    <div id="rolldice">
+    <div id="back">
+      <div id="ndice">...</div>
+      <button id="roll">roll</button>
+      <img id="img" src="image/d1.png">
+    </div>
+    
+    <script src="scripts/rd.js"></script>
+    </div>
+    <div id="solitaire">
+    <h1>Пасьянс</h1>
+    <div class="i">
+      <input/>
+      <button id="1">send</button>
+      <button id="r">reserve</button>
+      <button id="shuffling">shuffling</button>
+      <b></b>
+      
+      <div id="ruls">КАК В ЭТО ИГРАТЬ<br>
+      кароче вот там разложен пасьянс если ты в него играть не умеешь то все<br>
+      значит пишешь в форму наверху 3 числа<br>
+      1 число это строка с которой вы хотите взять карту<br>
+      2 число это какая карта по счету от лева<br>
+      3 число это номер строки куда надо</div>
+    </div>
+    <textarea id="2"></textarea>
+    <script src="scripts/solitaire.js"></script>
+    </div>
+
+    <div id="clocks">
+        <p>-:-:-</p>
+        <canvas id="canvas" width="200px" height="200px"></canvas>
+    </div>
+    <script src="scripts/soon.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

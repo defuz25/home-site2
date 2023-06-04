@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess Num</title>
+    <link rel="stylesheet" href="styles/registration.css">
+</head>
+<body id="body">
+        
+    <div id="menu">
+        <a href="index.html">Home</a>
+        <a href="#" class="active">Guess Num</a>
+        <a href="risovalka.html">Painter</a>
+        <a href="tests.html">Tests</a>
+    </div>
+        
+        <div style="text-align: center; margin-top: 60px;"><h1><font face="Verdana">выберите уровень сложности</font></h1>
+      <h1> </h1>
+       <button onclick="num_l()" id="bl" class="bb"><font size="4">легкий</font></button>
+            <button onclick="num_c()" class="bb"><font size="4">средний</font></button>
+            <button onclick="num_h()" class="bb"><font size="4">сложный</font></button>
+            <button onclick="num_uh()" style="background-color: darksalmon"><font size="4">ультра хард</font></button>
+    <button onclick="num_sumh()" style="background-color: crimson; color: aliceblue"><font face="Bahnschrift" size="4"><b>супер ультра <br>мега  хард</b></font></button>
+       <button onclick="tatar()" style="background-color: purple; color: aliceblue"><font face="Impact" size="5">пройдет лишь <br>татарин</font></button>
+      <h1>  </h1>
+       <h1 ><font id="txt" face="Verdana"></font></h1>
+       <p id="rewq"><b><font face="Verdana" >кол-во попыток: </font></b>
+       <b><font id="tmpts" face="Verdana">0</font></b></p>
+    <h1>  </h1>    
+       </div>
+        
+         <script src="scripts/num.js"></script>
+    
+     <p style="text-align: center" id="fds"><input type="text" id="num_user" placeholder="тут">
+     <button onclick="num_check()" id="bch"><font size="4">проверить</font></button>
+         <button onclick="numm()"><font size="4">заново</font></button></p>
+     
+</body>
+</html>

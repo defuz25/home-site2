@@ -1,0 +1,121 @@
+body{
+    font-family:  'Trebuchet MS', Calibri;
+    background-color: #f8f8f8;
+}
+.night{
+    filter: invert(90%);
+}
+#dark{
+    position: absolute;
+    right: 0;
+    user-select: none;
+}
+#menu{
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #bdbdbd80;
+    background-color: #fffffff9;
+}
+#menu a{
+    border-inline: 1px #0000 solid;
+    padding: 15px;
+    padding-inline: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #353535;
+    /* font-variant: small-caps; */
+    letter-spacing: 3px;
+}
+#menu a:hover, #menu a.active{
+    border-inline: 1px #bdbdbd80 solid;
+}
+
+#solitaire{
+    position: relative;
+}
+textarea{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 40%;
+    height: 260px;
+    resize: none;
+    pointer-events: none;
+    font-size: 20px;
+}
+b{
+    color: red;
+}
+
+#a{
+    color: orange;
+    font-size: 12px;
+}
+#ruls{
+    position: relative;
+    top: 5px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+#img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -75px;
+}
+#back{
+    margin-top: 100px;
+    height: 240px;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+#rolldice{
+    position: relative;
+    /* top: -200px; */
+}
+#roll{
+    bottom: 20px;
+    text-align: center;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    background-color: ghostwhite
+}
+#roll:hover{
+    color: ghostwhite;
+    background-color: #333333;
+}
+#roll:active{
+    color: darkgrey;
+    background-color: black;
+    border-color: black;
+}
+#ndice{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* position: absolute; */
+    text-align: center
+}
+
+#clocks{
+    font: bold 20px monospace;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}

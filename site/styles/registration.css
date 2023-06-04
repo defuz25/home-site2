@@ -1,0 +1,144 @@
+body{
+    font-family:  'Trebuchet MS', Calibri;
+    color: #353535;
+    background-color: #fff;
+}
+#b_of_c {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    color: aliceblue;
+    font-size: 70px;
+    cursor: pointer;
+    background: linear-gradient(to top, #c70000 1px, red 30px);
+    border: 3px;
+    text-decoration: none;
+}
+#b_of_c:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    color: aliceblue;
+    font-size: 70px;
+    cursor: pointer;
+    background: linear-gradient(to top, #c70000, red);
+    border: 3px;
+    text-decoration: none;
+}
+p {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+}
+#kvsj {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#kvs {
+    background: linear-gradient(to bottom, #00db6a, #61c9a3);
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+#kvs:hover {
+    background: linear-gradient(to bottom, #00cc66, #3fbf95);
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    border: 0;
+    color: gainsboro;
+    font-size: 20px;
+}
+#pr {
+    text-decoration: none;
+    color: black;
+}
+#menu{
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #bdbdbd80;
+    background-color: #fffffff9;
+}
+#menu a{
+    border-inline: 1px #0000 solid;
+    padding: 15px;
+    padding-inline: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #353535;
+    /* font-variant: small-caps; */
+    letter-spacing: 3px;
+}
+#menu a:hover, #menu a.active{
+    border-inline: 1px #bdbdbd80 solid;
+}
+#rewq{
+    background-color: #e4f1ed;
+}
+#txt{
+    background-color: antiquewhite;
+}
+.bb {
+    border-radius: 7px;
+}
+#bl{
+    background-color: #bcf5bc;
+    color: seagreen;
+}
+#bch{
+    background-color: dodgerblue;
+    color: aliceblue;
+    border-radius: 7px;
+}
+.bob {
+    text-align: end;
+    margin-right: 100px;
+}
+#bCC {
+    background: linear-gradient(to bottom, #fde910, #ffa500);
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#bCC:hover {
+    background: linear-gradient(to bottom, #ffd700, #db8b00);
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#score {
+    border-width: 5px;    
+	border-style: solid;  
+	border-color: whitesmoke;    
+	width: 300px;
+	height: 100px;
+}
+.iop {
+    flex-direction: row;
+    padding: 10px
+}
+#parent {
+    white-space: nowrap;
+}
+.child {
+    display: inline-block;
+    margin-right: 30px;
+}

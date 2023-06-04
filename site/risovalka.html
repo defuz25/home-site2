@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Painter</title>
+    <link rel="stylesheet" href="styles/risovalka.css">
+    <script defer src="E:\Эмиль\программирование\js\jquery\jquery-3.6.2.min.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html">Home</a>
+        <a href="numbers.html">Guess Num</a>
+        <a href="#" class="active">Painter</a>
+        <a href="tests.html">Tests</a>
+    </div>
+<div id="idk">
+<canvas id="canvas" width="500" height="300"></canvas>
+<canvas id="canvas2" width="500" height="300"></canvas>
+</div>
+<div id="id1">
+
+<div class="ranger">
+<div id="txt1" style="font-family: sans-serif">Размер кисти</div>
+<qwe>1</qwe>
+<input type="range" max="25" min="1" value="1" id="aaa">
+<qwe>10</qwe>
+</div>
+
+<div id="pen"></div>
+
+<qwe id="colortxt">Цвет:</qwe><input type="color" id="color">
+
+<textarea id="sta" placeholder="Введите текст, который хотите вставить"></textarea>
+
+<input id="fi" type="file" accept="*/image">
+<input id='imgw' type="number" placeholder="Ширина">
+<input id='imgh' type="number" placeholder="Длина">
+<qwe id="txtsimg">Размер:</qwe>
+
+<select id="fontselect">
+    <option value="sans-serif" selected="selected">Arial</option>
+    <option value="serif">Times New Roman</option>
+    <option value="courier">Courier</option>
+    <option value="monospace">Monospace</option>
+    <option value="fantasy">Fantasy</option>
+    <option value="cursive">comic sans</option>
+</select>
+
+<div id="txt3">Стиль линии:</div>
+<select id="linestyle">
+    <option value="solid" selected="selected">Сплошная</option>
+    <option value="punktir">Пунктир</option>
+</select>
+<select id="figsel">
+    <option value="line" selected="selected">Прямая</option>
+    <option value="rect">Прямоугольник</option>
+    <option value="circle">Окружность</option>
+</select>
+<qwe id="txt4"><i>Чтобы нарисовать нажмите 'Space'</i></qwe>
+
+<!--
+<div class="ranger" id="ranger2">
+<div style="font-family: sans-serif" id="rty">Прозрачность</div>
+<qwe1>10%</qwe1>
+<input type="range" max="1" min="0,1" value="1" step="0.1" id="bbb">
+<qwe1>100%</qwe1>
+</div>
+-->
+
+<button id="saveb">Сохранить без фона</button>
+<button id="clear">Очистить холст</button>
+</div>
+
+<div id="instr">
+<img id="kist" src="https://pic.onlinewebfonts.com/svg/img_67484.png" onclick="tru_folz('bruh'); remove(); create()">
+<img id="lastic" src="https://cdn-icons-png.flaticon.com/512/1/1509.png" onclick="tru_folz('esraser'); remove();">
+<img id="setext" src="https://www.pinclipart.com/picdir/big/0-7483_t-times-new-roman-clipart.png" onclick="tru_folz('sext'); remove(); create()">
+<!-- <div id="bgcbutton" onclick="chgbgc()">BG <br>color</div> -->
+<img id="setimg" src="https://cdn.onlinewebfonts.com/svg/download_387371.png" onclick="tru_folz('simg'); remove(); create()">
+<img id="create_demotiv" src="https://r1.mt.ru/r30/photoF7EA/20995482816-0/jpg/bp.jpeg" onclick="tru_folz('demotiv'); remove(); etg_for_demotiv();">
+<img src="https://cdn.onlinewebfonts.com/svg/download_533030.png" onclick="tru_folz('figure'); remove(); create()">
+</div>
+
+<div id="size">
+<qwe id="warning">Размер холста:</qwe>
+<input type="number" id="sizecanvas1" min="10" max="900" value="500" step="5">
+<input type="number" id="sizecanvas2" min="10" max="900" value="300" step="5">
+<button onclick="defsize()">Сбросить</button>
+</div>
+<script src="scripts/paint.js"></script>
+</body>
+</html>

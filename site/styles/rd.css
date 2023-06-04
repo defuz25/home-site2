@@ -1,0 +1,45 @@
+#img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 325px;
+    left: 50%;
+    margin-left: -125px;
+}
+#back {
+    margin-top: 250px;
+    height: 450px;
+    background-color: snow;
+}
+body {
+    background-color: gainsboro;
+}
+#roll {
+    top: 610px;
+    text-align: center;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    font-size: 30px;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    background-color: ghostwhite
+}
+#roll:hover {
+    color: ghostwhite;
+    background-color: #333333;
+}
+#roll:active{
+    color: darkgrey;
+    background-color: black;
+    border-color: black;
+}
+#ndice {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: -430px;
+    text-align: center
+}
