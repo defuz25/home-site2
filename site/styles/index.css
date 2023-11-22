@@ -64,7 +64,9 @@ body{
 #main img{
     float: right;
     width: 300px;
-    margin: 30px;
+    margin: 10px;
+    position: relative;
+    border: #353535 1px solid;
 }
 #sidebar{
     border-right: 1px solid #bdbdbd80;
