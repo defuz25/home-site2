@@ -45,21 +45,21 @@ fieldset{
 #canvas{
     border: 2px solid #666;
     position: absolute;
-    top: 200px;
+    margin-top: 70px;
     left: 10px;
     z-index: 1;
 }
 #canvas2{
     border: 2px solid #666;
     position: absolute;
-    top: 200px;
+    margin-top: 70px;
     left: 10px;
     z-index: 2;
     cursor: crosshair;
 }
 #img{
     position: absolute;
-    top: 200px;
+    margin-top: 70px;
     left: 10px;
     z-index: -1;
 }
