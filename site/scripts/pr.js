@@ -106,5 +106,5 @@ $('#file').change(function(){
         canvas.height=$('#img').height();
         canvas2.width=$('#img').width();
         canvas2.height=$('#img').height();
-    }, 50);
+    }, 100);
 });
