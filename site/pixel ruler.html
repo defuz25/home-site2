@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Ruler</title>
+    <link rel="stylesheet" href="styles/pr.css">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+</head>
+<body>
+  <div id="menu">
+    <a href="index.html">Home</a>
+    <a href="numbers.html">Guess Num</a>
+    <a href="risovalka.html">Painter</a>
+    <a href="tests.html">Tests</a>
+    <a href="pixel ruler.html" class="active">Pixel Ruler</a>
+    <a id="dark">&#9680;</a>
+  </div>
+  <fieldset>
+    <b>Выбрать изображение</b><input id="file" type="file" accept="*/image">
+    <br><b>Установить единичный отрезок</b><input id="real" type="checkbox" checked>
+    <b>Реальная длина:</b><input id="real_length" type="number" min="1" value="1">
+    <br><b>Цвет:</b><input id="color" type="color">
+    <b>Толщина: 1</b><input id="weight" type="range" min="1" max="10" value="2"><b>10</b><b style="margin-left: 30px;">90`</b><input id="right" type="checkbox"><button id="clear">Очистить</button>
+    <i style="color: #c9c9c9; margin-left: 20px;">'Space' - отменить построение</i>
+    <div id="div_length">
+      <b>Округлить до</b>
+      <select id="round">
+        <option value="0">1</option>
+        <option value="1">0.1</option>
+        <option value="2" selected>0.01</option>
+        <option value="3">0.001</option>
+        <option value="4">0.0001</option>
+        <option value="5">0.00001</option>
+        <option value="6">0.000001</option>
+        <option value="7">0.0000001</option>
+        <option value="8">0.00000001</option>
+        <option value="9">0.000000001</option>
+    </select>
+    <br><b>Длина:</b><b id="length"></b>
+  </div>
+  </fieldset>
+  
+<canvas id="canvas" width="700" height="500"></canvas>
+<canvas id="canvas2" width="700" height="500"></canvas>
+<img id="img">
+    <script src="scripts/pr.js"></script>
+    <script src="scripts/dark.js"></script>
+</body>
+</html>

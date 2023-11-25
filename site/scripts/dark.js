@@ -1,4 +1,4 @@
-let i = 0
+let i = 0;
 document.getElementById('dark').onclick = () => {
     if(!i) {
         document.documentElement.classList.add('night'); 
